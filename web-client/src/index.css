@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@import "swiper/swiper-bundle.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  /* Kakumei Base */
+
+  --kakumei-primary: #01bcf3;
+  --kakumei-secondary: #0e546d;
+  --font-size: 1rem;
+  --fuente: Helvetica, Arial;
+
+  /* Modo Claro */
+
+  --background-light: var(--color-gray-200);
+  --color-light: #121212;
+
+  /* Modo Latam */
+  --background-latam: var(--color-slate-900);
+  --background-light-latam: rgba(255,255,255,.05);
+  --background-dark-latam: rgb(0 0 0 / 27%);
+  --color-latam: #ffffff;
+  }
+
+  html {
+    background-color: var(--background-light);
+    color: var(--color-light);
+  }
+
+  html.dark {
+    background-color: var(--background-latam);
+    color: var(--color-latam);
+  }
+
+.wslider-item .wslider-cover .wslider-img:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+      90deg,
+      #0c0c1d 0%,
+      rgba(32, 33, 37, 0.6) 40%,
+      rgba(32, 33, 37, 0) 60%,
+      rgba(32, 33, 37, 0) 80%,
+      #0c0c1d 100%
+  );
+  z-index: 1;
+}
+
+.wslider-item .wslider-cover .wslider-img:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+      0deg,
+      #0c0c1d 0%,
+      rgba(32, 33, 37, 0) 50%,
+      #0c0c1d 100%
+  );
+  z-index: 2;
+}
