@@ -20,7 +20,7 @@ Follow these steps to set up the project locally:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-username/web-anime.git
+    git clone https://github.com/mr4r3n/KakumeiSubs/web-client.git
     ```
 2. **Navigate to the Client Directory**:
     ```bash
