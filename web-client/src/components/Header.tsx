@@ -62,20 +62,14 @@ function Header() {
 
                             {/* Logo */}
                             <div
-                                className="wlogo w-[175px] h-auto ml-4 sm:absolute sm:top-1/2 sm:left-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 lg:relative lg:top-auto lg:left-auto lg:-translate-x-0 lg:-translate-y-0"
+                                className="wlogo w-[100px] h-auto ml-4 sm:absolute sm:top-1/2 sm:left-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 lg:relative lg:top-auto lg:left-auto lg:-translate-x-0 lg:-translate-y-0"
                             >
-                                {/*<img
+                                <img
                                     className="w-full h-full"
-                                    src=""
+                                    src="https://cdn.discordapp.com/attachments/1148457233034776616/1338958408614674492/LOGOv5.png?ex=67acf9b1&is=67aba831&hm=a7422cc8ef538f1d7b46cdd4e3e0aab18cb7d5722dee3a14fc5b707f0672d0dc&"
                                     alt="Logo KakumeiSubs"
                                     title="Logo KakumeiSubs"
-                                />*/}
-                                <p className={`w-full h-full uppercase font-bold transition-all duration-500 ease-in-out text-2xl block ${
-                                        isActive("/")
-                                            ? "text-gray-100"
-                                            : "text-gray-900 dark:text-gray-100"
-                                    }`}>Kakumei Subs
-                                </p>
+                                />
                             </div>
 
                             {/* Opciones del menú */}

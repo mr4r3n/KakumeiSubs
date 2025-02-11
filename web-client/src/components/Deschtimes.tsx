@@ -59,10 +59,14 @@ const POSITION_COLORS: Record<string, string> = {
     T: "bg-gradient-to-r from-red-500 to-orange-500",
     C: "bg-gradient-to-r  from-green-500 to-blue-500",
     TI: "bg-gradient-to-r  from-blue-500 to-purple-500",
+    S: "bg-gradient-to-r  from-blue-500 to-purple-500",
     TS: "bg-gradient-to-r  from-blue-800 to-violet-800",
+    E: "bg-gradient-to-r  from-blue-800 to-violet-800",
     KFX: "bg-gradient-to-r  from-pink-600 to-red-600",
     ENC: "bg-gradient-to-r  from-purple-500 to-blue-800",
     QC: "bg-gradient-to-r  from-indigo-500 to-indigo-700",
+    QC1: "bg-gradient-to-r  from-indigo-500 to-indigo-700",
+    QC2: "bg-gradient-to-r  from-indigo-500 to-indigo-700",
 };
 
 const DeschTimes: React.FC = () => {
