@@ -7,6 +7,7 @@ import AboutUs from "./routes/AboutUs";
 import Dashboard from "./routes/Dashboard";
 import Projects from "./routes/Projects";
 import Karaokes from "./routes/Karaokes";
+import Posts from "./routes/Posts";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "/projects",
     element: <Projects />,
+  },
+  {
+    path: "/posts",
+    element: <Posts />,
   },
   {
     path: "/karaokes",
