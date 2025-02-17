@@ -1,67 +1,79 @@
 {
-    "program": {
+  "program": {
       "id": 1,
       "name": "Demon Slayer: Kimetsu no Yaiba",
       "type": "series",
-      "genres": ["Acción", "Drama", "Fantasía"],
+      "tags": ["Acción", "Drama", "Fantasía"],
       "year": 2019,
       "duration": null,
       "episodesCount": 26,
+      "poster": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx142329-kET1PIXJv2eW.jpg",
+      "sinopsis": "After visiting the Rengoku residence, Tanjirou and his comrades volunteer for a mission within the Entertainment District, a place where desires are sold and demons dwell. They journey alongside the flashy Sound Hashira, Tengen Uzui, in search of a monstrous foe terrorizing the town. Sworn to slay creatures of the night, the hunt continues.",
       "specifications": {
-        "source": "Blu-ray",
-        "resolution": "1080p",
-        "videoCodec": "H.264",
-        "audio": "Japonés AAC 2.0",
-        "subtitles": "Español Latino",
-        "format": "MKV",
-        "size": "300 MB por episodio"
+          "source": "Blu-ray",
+          "resolution": "1080p",
+          "videoCodec": "H.264",
+          "audio": "Japonés AAC 2.0",
+          "subtitles": "Español Latino",
+          "format": "MKV",
+          "size": "300 MB"
       },
       "staff": [
-        {
-          "role": "Traductor",
-          "name": "John Doe"
-        },
-        {
-          "role": "Corrector",
-          "name": "Jane Smith"
-        },
-        {
-          "role": "Tiempos",
-          "name": "Alice Johnson"
-        },
-        {
-          "role": "Edición",
-          "name": "Bob Brown"
-        },
-        {
-          "role": "Karaokes",
-          "name": "Charlie Green"
-        },
-        {
-          "role": "Encode",
-          "name": "David White"
-        },
-        {
-          "role": "Control de Calidad",
-          "name": "Eve Black"
-        }
+          {
+              "role": "Traductor",
+              "name": "John Doe",
+              "profile": "https://kakumeisubs.com/wp-content/uploads/2023/06/Alex.gif"
+          },
+          {
+              "role": "Corrector",
+              "name": "Jane Smith",
+              "profile": "https://kakumeisubs.com/wp-content/uploads/2023/06/RaiN.gif"
+          },
+          {
+              "role": "Tiempos",
+              "name": "Alice Johnson",
+              "profile": "https://kakumeisubs.com/wp-content/uploads/2023/06/trota.jpg"
+          },
+          {
+              "role": "Edición",
+              "name": "Bob Brown",
+              "profile": "https://kakumeisubs.com/wp-content/uploads/2023/06/trota.jpg"
+          },
+          {
+              "role": "Karaokes",
+              "name": "Charlie Green",
+              "profile": "https://kakumeisubs.com/wp-content/uploads/2023/06/trota.jpg"
+          },
+          {
+              "role": "Encode",
+              "name": "David White",
+              "profile": "https://kakumeisubs.com/wp-content/uploads/2023/06/RaiN.gif"
+          },
+          {
+              "role": "Control de Calidad",
+              "name": "Eve Black",
+              "profile": "https://kakumeisubs.com/wp-content/uploads/2023/06/efe39c946c15d0698d77ac5d47c78089.png"
+          }
       ],
       "episodes": [
-        {
-          "number": 1,
-          "releaseDate": "2019-04-06",
-          "downloadLink": "https://example.com/episode1.mkv"
-        },
-        {
-          "number": 2,
-          "releaseDate": "2019-04-13",
-          "downloadLink": "https://example.com/episode2.mkv"
-        },
-        {
-          "number": 3,
-          "releaseDate": "2019-04-20",
-          "downloadLink": "https://example.com/episode3.mkv"
-        }
+          {
+              "number": 1,
+              "releaseDate": "2019-04-06",
+              "downloadLink": "https://example.com/episode1.mkv",
+              "progress": 100
+          },
+          {
+              "number": 2,
+              "releaseDate": "2019-04-13",
+              "downloadLink": "https://example.com/episode2.mkv",
+              "progress": 75
+          },
+          {
+              "number": 3,
+              "releaseDate": "2019-04-20",
+              "downloadLink": "https://example.com/episode3.mkv",
+              "progress": 50
+          }
       ]
-    }
   }
+}

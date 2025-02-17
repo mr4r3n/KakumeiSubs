@@ -10,7 +10,11 @@ const posts = [
         url: "#",
         date: "09 de Febrero, 2025",
         time: "10:30 AM",
-        quality: "WebRip 1080p",
+        tags: [
+            "Romance",
+            "Slice of Life",
+            "Sports"
+        ],
     },
     {
         title: "Kusuriya no Hitorigoto S02 | Episodio 03",
@@ -21,7 +25,10 @@ const posts = [
         url: "#",
         date: "05 de Febrero, 2025",
         time: "10:30 AM",
-        quality: "WebRip 1080p",
+        tags: [
+            "Drama",
+            "Mystery",
+        ],
     },
     {
         title: "Kusuriya no Hitorigoto S02 | Episodio 02",
@@ -32,7 +39,10 @@ const posts = [
         url: "#",
         date: "30 de Enero, 2025",
         time: "10:30 AM",
-        quality: "WebRip 1080p",
+        tags: [
+            "Drama",
+            "Mystery",
+        ],
     },
     {
         title: "Kuroiwa Medaka ni Watashi no Kawaii ga Tsuujinai | Episodio 02",
@@ -43,7 +53,11 @@ const posts = [
         url: "#",
         date: "26 de Enero, 2025",
         time: "10:30 AM",
-        quality: "WebRip",
+        tags: [
+            "Comedia",
+            "Ecchi",
+            "Romance",
+        ],
     },
 ];
 
@@ -53,7 +67,7 @@ const EpisodeCard = () => {
             {posts.map((post, index) => (
                 <div
                     key={index}
-                    className="max-w-md mx-auto bg-white text-gray-900 dark:bg-slate-800 dark:text-gray-100 rounded-lg overflow-hidden hover:shadow-2xl cursor-pointer"
+                    className="max-w-md mx-auto bg-white text-gray-900 dark:bg-slate-800 dark:text-gray-100 rounded-xl overflow-hidden hover:shadow-2xl cursor-pointer"
                 >
                     {/* Imagen */}
                     <img
@@ -63,18 +77,23 @@ const EpisodeCard = () => {
                     />
                     {/* Contenido */}
                     <div className="p-4">
-                        {/* Título */}
-                        <h2 className="text-xl font-bold">{post.title}</h2>
                         {/* Usuario y fecha */}
-                        <p className="text-gray-500 dark:text-gray-400 text-sm">
-                        <span className="font-semibold">{post.date}, {post.time}</span>
+                        <p className="text-gray-500 mb-2 dark:text-gray-400 text-sm">
+                            <span className="font-semibold">Añadido el {post.date}, {post.time}</span>
                         </p>
+                        {/* Título */}
+                        <h2 className="text-xl font-bold mb-1">{post.title}</h2>
+
+
+                        {post.tags.map((tag, i) => (
+                            <span key={i} className="text-sm mr-2 font-medium text-gray-100 bg-slate-900 px-2 py-1 rounded-md">
+                                {tag}
+                            </span>
+                        ))}
+
                         {/* Descripción */}
                         <p className="text-gray-600 dark:text-gray-300 mt-2 line-clamp-2">{post.description}</p>
-                        {/* Calidad */}
-                        <span className="inline-block mt-2 text-gray-100 text-sm bg-green-500 px-2 py-1 rounded-lg">
-                            {post.quality}
-                        </span>
+
                         {/* Enlace */}
                         <a
                             href={post.url}

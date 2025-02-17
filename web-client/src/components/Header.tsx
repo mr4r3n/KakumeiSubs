@@ -31,7 +31,7 @@ function Header() {
     return (
         <div id="wrapper" className="w-full relative mx-auto pt-[100px]">
             {/* Navbar */}
-            <div id="header" className={`fixed flex top-0 right-0 left-0 z-[1030] px-2 py-2 transition duration-[800ms] ${scrolling ? "bg-white shadow-lg dark:shadow-lg dark:bg-slate-800" : "bg-transparent"}`}>
+            <div id="header" className={`fixed flex top-0 right-0 left-0 z-[1030] px-2 py-2 transition duration-[800ms] ${scrolling ? "bg-white shadow-lg dark:shadow-lg dark:bg-slate-800" : "bg-white/100 dark:bg-slate-800/100"}`}>
                 <div className="container-fluid w-full lg:px-4">
                     <div className="wnavbar flex justify-between items-center">
                         {/* Navbar Left */}
